@@ -1,5 +1,5 @@
 {
-  "name": "Demo-End2End-Test",
+  "name": "E2E-Protractor-Test",
   "author": "Hugo Doyon",
   "license": "MIT",
   "scripts": {
@@ -8,9 +8,10 @@
     "test": "protractor tmp/conf.js"
   },
   "dependencies": {
-    "jasmine": "^2.4.1",
-    "protractor": "^4.0.10",
-    "typescript": "^2.0.0"
+    "jasmine": "2.5.2",
+    "protractor": "4.0.14",
+    "typescript": "2.1.4"
+
   },
    "typeAcquisition": {
         "include": [
