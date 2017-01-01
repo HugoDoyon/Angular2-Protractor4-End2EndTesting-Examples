@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "removeComments": true,
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "declaration": false,
+    "noImplicitAny": false,
+    "outDir": "tmp",
+    "types": ["node", "jasmine", "protractor"]
+  },
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Demo-End2End-Test",
+  "author": "Hugo Doyon",
+  "license": "MIT",
+  "scripts": {
+    "tsc": "tsc",
+    "pretest": "cls && npm run tsc",
+    "test": "protractor tmp/conf.js"
+  },
+  "dependencies": {
+    "jasmine": "^2.4.1",
+    "protractor": "^4.0.10",
+    "typescript": "^2.0.0"
+  },
+   "typeAcquisition": {
+        "include": [
+            "protractor"
+        ]
+    }
+}
