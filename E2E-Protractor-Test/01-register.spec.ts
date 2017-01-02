@@ -11,7 +11,7 @@ describe('Register and Open Account Page', () => {
     element(by.css('#firstName')).sendKeys('Tony');
     element(by.css('#lastName')).sendKeys('Accurso');
     element(by.css('#username')).sendKeys('Taccurso');
-    element(by.css('#password')).sendKeys('Secret');
+    element(by.css('#password')).sendKeys('0123');
     element(by.id('register')).click();
     
     expect(element(by.css('.alert-success')).getText()).toContain('Registration successful');
