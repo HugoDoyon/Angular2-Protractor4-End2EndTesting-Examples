@@ -16,5 +16,5 @@ describe('Register and Open Account Page', () => {
     
     expect(element(by.css('.alert-success')).getText()).toContain('Registration successful');
   });
-
+  
 });

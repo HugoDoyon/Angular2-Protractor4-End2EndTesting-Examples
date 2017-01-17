@@ -16,9 +16,9 @@ describe('Login Page', () => {
 
   it('Should login When valid credential provided', () => {
     element(by.css('#username')).sendKeys('Taccurso');
-    element(by.css('#password')).sendKeys('Secret');
+    element(by.css('#password')).sendKeys('0123');
     element(by.id('login')).click();
-    
+
     expect(element(by.id('greeting')).getText()).toContain('you are currently logged in!');
   });
 
